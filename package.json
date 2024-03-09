@@ -2,11 +2,11 @@
   "name": "blockchain-database",
   "version": "1.0.0",
   "description": "iplementing a basic blockchain database structure",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node app.js",
     "type": "module",
-    "dev": "nodemon server.js"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jhakrishan20/Blockchain-database#readme",
   "dependencies": {
+    "bitcoinjs-lib": "^6.1.5",
     "crypto": "^1.0.1",
     "crypto-js": "^4.2.0",
     "ejs": "^3.1.9",

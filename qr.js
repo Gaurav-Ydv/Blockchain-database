@@ -1,9 +1,14 @@
+const privkey = require('./test');
+const SHA256 = require("crypto-js/sha256");
+
 // generateQR.js
+const address =  SHA256 ( privkey ).toString();
+
 const fs = require('fs');
 const QRCode = require('qrcode');
 
 // Data to encode in the QR code
-const data = 'Hello, world!';
+const data = address;
 
 // Generate QR code
 QRCode.toFile('./qr-code.png', data, (err) => {
@@ -13,3 +18,4 @@ QRCode.toFile('./qr-code.png', data, (err) => {
     console.log('QR code generated successfully!');
   }
 });
+

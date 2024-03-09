@@ -214,6 +214,7 @@ app.post("/transactions",async (req,res)=>{
 // )
 // console.log(obj.blockchain);
 
-app.listen(4500 ,()=>{
-    console.log("listneing on http://localhost:4500");
+const port = process.env.PORT || 5500;
+app.listen(port, () => {
+  console.log(`App is running on port http://localhost:5500`);
 });

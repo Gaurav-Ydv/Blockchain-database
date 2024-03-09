@@ -12,12 +12,15 @@ function removeToast(){
         //     toast.classList.add("invalid");
         
         // }
-        let snd = new Audio("success.wav");
-        snd.play();
-        snd.currentTime = 0;
     
     setTimeout(()=>{
         toast.remove();
     },3000);
 }
 removeToast();
+
+// let submit = document.getElementById("transactSubmit");
+// submit.addEventListener("click", ()=> {
+//     let snd = new Audio("success.wav");
+//     snd.play();
+//     snd.currentTime = 0;})
