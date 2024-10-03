@@ -1,4 +1,4 @@
-<h1>Coin Trust: Decentralized Transaction Application</h1><br>
+<h1>BitPay: Generalising Bitcoin for everyday payments</h1><br>
 Coin Trust is a decentralized transaction application built on blockchain technology. It provides a secure and transparent platform for users to conduct peer-to-peer transactions without the need for intermediaries. With Coin Trust, users can transfer digital assets securely and trustlessly, ensuring the integrity and immutability of their transactions.
 
 Features
